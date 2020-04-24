@@ -5,7 +5,7 @@ import scala.math._
   def field(): Double
 }
 
-abstract class Quadrangle() {
+abstract class Quadrangle() extends Figure {
 }
 
 class Circle(val radius: Double) extends Figure {
